@@ -1,6 +1,7 @@
 """
 problem 01.02 Check Permutation LCCI
-description
+
+Description:
 Given two strings,write a method to decide if one is a permutation of the other.
 
 Example 1:
@@ -18,6 +19,7 @@ Note:
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/check-permutation-lcci
 """
+
 #hash: O(n)
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
@@ -32,6 +34,7 @@ class Solution:
             else:
                 return False
         return True
+        
 #sort: O(nlogn)
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
