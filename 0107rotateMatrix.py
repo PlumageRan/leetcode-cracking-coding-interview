@@ -38,7 +38,7 @@ Rotate the matrix in place. It becomes:
 链接：https://leetcode-cn.com/problems/rotate-matrix-lcci
 """
 #in place O(n^2)
-#j 	 , N-1-i = i    , j
+#j 	  , N-1-i = i    , j
 #N-1-i, N-1-j = j    , N-1-i
 #N-1-j, i     = N-1-i, N-1-j
 #i    , j     = N-1-j, i
